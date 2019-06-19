@@ -13,7 +13,7 @@ eureka:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: true
     #注册中心多长时间更新一次数据
-    peer-eureka-nodes-update-interval-ms: 100000
+    #peer-eureka-nodes-update-interval-ms: 100000
 spring:
   profiles: dev
   application:
